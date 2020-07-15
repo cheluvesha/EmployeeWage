@@ -1,4 +1,5 @@
-#!/bin/bash -x
+#!/bin/bash 
+#UC1
 isPresent=1;
 randomCheck=$((RANDOM%2));
 if [ $isPresent -eq $randomCheck ]
